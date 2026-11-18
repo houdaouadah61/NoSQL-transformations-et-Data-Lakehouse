@@ -1,0 +1,11 @@
+﻿Controle;Regle;Resultat;Statut
+Volume des ventes;667579 lignes attendues;667579;CONFORME
+Volume des articles;17820 lignes attendues;17820;CONFORME
+Unicité des articles;Aucun identifiant dupliqué;0;CONFORME
+Doublons complets;Aucune ligne dupliquée;0;CONFORME
+Quantités vendues;Strictement positives;0;CONFORME
+Prix des articles;Strictement positifs;0;CONFORME
+Intégrité référentielle;Tous les articles retrouvés;0;CONFORME
+Valeurs manquantes ventes;1139 valeurs identifiées;1139;À SIGNALER
+Valeurs manquantes articles;21203 valeurs identifiées;21203;À SIGNALER
+Conversion des types;Aucun nouveau NULL;0;CONFORME
