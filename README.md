@@ -1,9 +1,5 @@
 # TP3 - NoSQL, transformations et Data Lakehouse
 
-**Réalisé par : Ouafa Ouadah**  
-**Projet : Retail Intelligence Platform**  
-**Partie réalisée : UC-06 - Transformation, qualité des données et Data Lakehouse**
-
 ## Présentation du TP
 
 Dans ce TP, j'ai travaillé sur des données de ventes et de produits d'un magasin.
