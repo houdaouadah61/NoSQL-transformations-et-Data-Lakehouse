@@ -122,11 +122,6 @@ J'ai comparé les deux formats en utilisant le fichier des articles.
 | Temps de lecture | 0,2494 s | 0,1112 s |
 
 Pour mes données, le fichier Parquet prend **45,91 % de place en moins** que le CSV.
-
-Il a aussi été plus rapide à lire pendant mon test. Par contre, ce temps peut changer selon l'ordinateur et les conditions d'exécution.
-
-J'ai compris que CSV est pratique pour consulter facilement les données, tandis que Parquet est plus intéressant pour stocker et analyser des données avec leurs types.
-
 ## 8. Difficultés rencontrées
 
 La principale difficulté a été la configuration de PySpark sous Windows.
