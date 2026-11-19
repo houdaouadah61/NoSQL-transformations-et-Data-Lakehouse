@@ -141,32 +141,4 @@ Pour pouvoir avancer, j'ai utilisé PyArrow pour enregistrer les résultats en P
 
 J'ai ensuite relu les fichiers pour vérifier qu'ils avaient bien été enregistrés.
 
-## 9. Comment utiliser mon projet
 
-Le notebook principal est :
-
-`NoSQL, transformations et Data Lakehouse.ipynb`
-
-Pour l'exécuter, il faut avoir Python, Java, PySpark, Pandas, PyArrow et Jupyter Notebook.
-
-Installation des bibliothèques Python :
-
-```bash
-pip install pyspark pandas pyarrow notebook
-```
-
-Il faut aussi disposer des fichiers de données `store_sales.dat` et `item.dat`, puis adapter les chemins du projet et de Java si nécessaire.
-
-Les cellules du notebook doivent être exécutées dans l'ordre, en commençant par la configuration de Spark.
-
-Les fichiers de données volumineux ne sont pas inclus dans ce dépôt GitHub.
-
-## Conclusion
-
-Ce TP m'a permis de mieux comprendre comment on peut passer de fichiers de données brutes à des données nettoyées et organisées pour faire des analyses.
-
-J'ai surtout travaillé sur la manipulation des DataFrames avec PySpark, la détection des valeurs manquantes, les jointures et la création de fichiers Parquet.
-
-J'ai également compris l'intérêt des zones Silver et Gold dans un Data Lakehouse, et l'importance de vérifier les données avant de les utiliser.
-
-Même si j'ai rencontré quelques difficultés de configuration, j'ai pu terminer les traitements de l'UC-06 et vérifier les résultats obtenus.
